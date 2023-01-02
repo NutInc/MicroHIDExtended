@@ -26,7 +26,7 @@ namespace MicroHIDExtended
         public override string Author => "Build";
 
         /// <inheritdoc />
-        public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(6, 0, 0);
 
         /// <inheritdoc />
         public override void OnEnabled()
