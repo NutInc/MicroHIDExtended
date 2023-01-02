@@ -16,6 +16,9 @@ namespace MicroHIDExtended
         /// <inheritdoc />
         public bool IsEnabled { get; set; } = true;
 
+        /// <inheritdoc />
+        public bool Debug { get; set; } = false;
+
         /// <summary>
         /// Gets or sets all charging related configs.
         /// </summary>

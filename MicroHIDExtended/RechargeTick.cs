@@ -5,6 +5,8 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using Exiled.API.Features.Pickups;
+
 namespace MicroHIDExtended
 {
     using System.Collections.Generic;
@@ -77,7 +79,7 @@ namespace MicroHIDExtended
 
         private void ChargePickups()
         {
-            foreach (Pickup pickup in Map.Pickups)
+            foreach (var pickup in Pickup.List)
             {
                 if (pickup.Base is MicroHIDPickup microHidPickup)
                 {
